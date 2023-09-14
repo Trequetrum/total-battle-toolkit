@@ -8,7 +8,7 @@ fn main() -> eframe::Result<()> {
 
     let native_options = eframe::NativeOptions::default();
     eframe::run_native(
-        "eframe template",
+        "Total Battle Toolkit",
         native_options,
         Box::new(|cc| Box::new(total_battle_toolkit::TemplateApp::new(cc))),
     )
