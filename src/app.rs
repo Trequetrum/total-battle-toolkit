@@ -14,7 +14,7 @@ impl Default for TemplateApp {
     fn default() -> Self {
         Self {
             // Example stuff:
-            label: "Hello World!".to_owned(),
+            label: "Hey Dan, some text!".to_owned(),
             value: 2.7,
         }
     }
@@ -95,10 +95,10 @@ impl eframe::App for TemplateApp {
         egui::CentralPanel::default().show(ctx, |ui| {
             // The central panel the region left after adding TopPanel's and SidePanel's
 
-            ui.heading("eframe template");
-            ui.hyperlink("https://github.com/emilk/eframe_template");
+            ui.heading("Total Battle Toolkit");
+            ui.hyperlink("https://play.google.com/store/apps/details?id=com.totalbattle&hl=en&gl=US");
             ui.add(egui::github_link_file!(
-                "https://github.com/emilk/eframe_template/blob/master/",
+                "https://github.com/Trequetrum/total-battle-toolkit/blob/main/",
                 "Source code."
             ));
             egui::warn_if_debug_build(ui);
