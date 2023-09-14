@@ -1,3 +1,11 @@
+# Total Battle Toolkit
+
+An experimental GUi for tools to help balance troops and such for battles.
+We shall see where we end up!
+
+Here's a link where I'll occasional build a WASM-based web app to showcase what's been done:
+> [Web App Link](https://trequetrum.github.io/total-battle-toolkit/)
+
 # eframe template
 
 [![dependency status](https://deps.rs/repo/github/emilk/eframe_template/status.svg)](https://deps.rs/repo/github/emilk/eframe_template)
